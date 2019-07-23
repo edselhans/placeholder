@@ -43,7 +43,8 @@ body {
 .bg-load {
   z-index: 1;
   opacity: 1;
-  transition: opacity 2s; }
+  background: #fff;
+  transition: opacity 1s; }
 
 .remove-load {
   display: none; }
@@ -170,7 +171,7 @@ body {
   text-align: center; }
 
 .subheading__title {
-  text-shadow: 2px 2px 4px darkgrey;
+  /* text-shadow: 2px 2px 4px darkgrey; */
   transform-origin: center center;
   animation-name: rotate3D;
   animation-duration: 8s;
@@ -303,7 +304,7 @@ body {
   text-align: center; }
 
 .address {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #000;
   text-align: center; }
 
@@ -331,9 +332,11 @@ body {
   left: 50%;
   transform: translateX(-50%); }
 
-#email {
+#email a {
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
   text-align: center; }
 
 @media screen and (min-width: 600px) {
