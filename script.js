@@ -1,6 +1,6 @@
 (function(){
   const heading = document.getElementById('heading');
-  for (let i = 1; i <= 7; i++) {
+  for (let i = 1; i <= 8; i++) {
     let div = document.createElement('div');
     div.classList.add('heading__title');
     div.classList.add('heading__title--' + i);
